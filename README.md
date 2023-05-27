@@ -20,7 +20,7 @@ Removed sections:
 <div align="center">
   <h1>Clarion</h1>
   <p>
-    Modern voting system built with Codeigniter
+    Advanced modern voting system built with Codeigniter
   </p>
 
 <!-- Badges -->
