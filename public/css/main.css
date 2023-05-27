@@ -1,0 +1,18 @@
+#sidebarMenu {
+  transform: translateX(-100%);
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+#sidebarMenu + .content {
+  margin-left: 0;
+}
+
+#sidebarMenu.open {
+  transform: translateX(0);
+  transition-duration: 0.4s;
+}
+
+#sidebarMenu.open + .content {
+  margin-left: 260px;
+}
