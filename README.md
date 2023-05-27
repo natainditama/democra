@@ -1,62 +1,155 @@
-# CodeIgniter 4 Application Starter
+<!--
+Hey, thanks for using the awesome-readme-template template.  
+If you have any enhancements, then fork this project and create a pull request 
+or just open an issue with the label "enhancement".
 
-## What is CodeIgniter?
+Don't forget to give this project a star for additional support ;)
+Maybe you can mention me or this repo in the acknowledgements too
+-->
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+<!--
+This README is a slimmed down version of the original one.
+Removed sections:
+- Screenshots
+- Running Test
+- Deployment
+- FAQ
+- Acknowledgements
+-->
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+<div align="center">
+  <h1>Clarion</h1>
+  <p>
+    Modern voting system built with Codeigniter
+  </p>
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+<!-- Badges -->
+<p>
+  <a href="https://github.com/natainditama/clarion/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/natainditama/clarion" alt="contributors" />
+  </a>
+  <a href="">
+    <img src="https://img.shields.io/github/last-commit/natainditama/clarion" alt="last update" />
+  </a>
+  <a href="https://github.com/natainditama/clarion/network/members">
+    <img src="https://img.shields.io/github/forks/natainditama/clarion" alt="forks" />
+  </a>
+  <a href="https://github.com/natainditama/clarion/stargazers">
+    <img src="https://img.shields.io/github/stars/natainditama/clarion" alt="stars" />
+  </a>
+  <a href="https://github.com/natainditama/clarion/issues/">
+    <img src="https://img.shields.io/github/issues/natainditama/clarion" alt="open issues" />
+  </a>
+  <a href="https://github.com/natainditama/clarion/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/natainditama/clarion.svg" alt="license" />
+  </a>
+</p>
+   
+<h4>
+    <a href="https://github.com/natainditama/clarion/">View Demo</a>
+  <span> · </span>
+    <a href="https://github.com/natainditama/clarion#readme">Documentation</a>
+  <span> · </span>
+    <a href="https://github.com/natainditama/clarion/issues/">Report Bug</a>
+  <span> · </span>
+    <a href="https://github.com/natainditama/clarion/issues/">Request Feature</a>
+  </h4>
+</div>
 
-The user guide corresponding to the latest version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+<br />
 
-## Installation & updates
+<div align="center"> 
+<!--   <img src="https://user-images.githubusercontent.com/81244669/235050191-50f32154-bbf4-47ee-89e7-31b7f6c77fb7.png" alt="screenshot" /> -->
+</div>
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+<br />
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+<!-- About the Project -->
+## About the Project
 
-## Setup
+<!-- Color Reference -->
+### Color Reference
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Primary Color | ![#1F2937](https://via.placeholder.com/10/1F2937?text=+) #1F2937 |
+| Secondary Color | ![#f0bc74](https://via.placeholder.com/10/f0bc74?text=+) #f0bc74 |
+| Background Color | ![#fff](https://via.placeholder.com/10/fff?text=+) #fff |
+| Text Color | ![#374151](https://via.placeholder.com/10/374151?text=+) #374151 |
 
-## Important Change with index.php
+<!-- Features -->
+### Features
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+- Responsive Design
+- SEO Optimization
+- User Authentication
+- Candidate Management
+- Results Tabulation
+- Secure Voting
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+<!-- Getting Started -->
+## 	Getting Started
 
-**Please** read the user guide for a better explanation of how CI4 works!
+<!-- Run Locally -->
+### Run Locally
 
-## Repository Management
+Clone the project
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+```bash
+  git clone https://github.com/natainditama/clarion.git
+```
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+Go to the project directory
 
-## Server Requirements
+```bash
+  cd clarion
+```
 
-PHP version 7.4 or higher is required, with the following extensions installed:
+Set up the environment
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+```bash
+  cp env .env
+```
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+Install dependencies
 
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+```bash
+  composer install
+```
+
+Run migrations 
+
+```bash
+  php spark migrate
+```
+
+Start the local web server
+
+```bash
+  php spark serve
+```
+
+<!-- Contributing -->
+## Contributing
+
+<a href="https://github.com/natainditama/clarion/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=natainditama/clarion" />
+</a><br /><br />
+
+Contributions are always welcome!
+
+<!-- Credit -->
+## Credit
+- Admin template by [Volt](https://demo.themesberg.com/volt/)
+
+<!-- License -->
+## License
+
+Distributed under the no License. See LICENSE.txt for more information.
+
+<!-- Contact -->
+## Contact
+
+Nata Inditama - [@natainditama](https://t.me/natainditama) - natainditama.dev@gmail.com
+
+Project Link: [https://github.com/natainditama/clarion](https://github.com/natainditama/clarion)
