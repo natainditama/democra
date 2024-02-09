@@ -1,0 +1,105 @@
+repo_name: natainditama/clarion
+report_id: 2777be9ae6981c8024263dd992ff70f1
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-09T04:47:30+00:00'
+requested_by: natainditama
+provider: github
+branch: main
+detected_tools_count: 8
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/natainditama/clarion
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/natainditama/clarion
+  detection_source: Repo Metadata
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/natainditama/clarion
+  detection_source: Repo Metadata
+- name: CodeIgniter
+  description: A Fully Baked PHP Framework
+  website_url: http://ellislab.com/codeigniter
+  version: 4.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1195/ci_logo.png
+  detection_source_url: https://github.com/natainditama/clarion/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Nata Inditama
+  last_updated_on: 2023-05-24 23:33:11.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/natainditama/clarion
+  detection_source: Repo Metadata
+- name: PHPUnit
+  description: Testing framework for PHP
+  website_url: https://phpunit.de/
+  version: 9.6.8
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/1616/1_WsEnddd5Y4EgEHsT054kUQ.jpeg
+  detection_source_url: https://github.com/natainditama/clarion/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Nata Inditama
+  last_updated_on: 2023-05-19 22:57:58.000000000 Z
+- name: mikey179/vfsStream
+  description: Virtual file system to mock the real file system in unit tests
+  package_url: https://packagist.org/mikey179/vfsStream
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/natainditama/clarion/blob/main/composer.json
+  detection_source: composer.json
+  last_updated_by: Nata Inditama
+  last_updated_on: 2023-05-19 22:57:58.000000000 Z
+- name: phpunit/phpunit
+  description: The PHP Unit Testing framework
+  package_url: https://packagist.org/phpunit/phpunit
+  version: 9.6.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/natainditama/clarion/blob/main/composer.lock
+  detection_source: composer.json
+  last_updated_by: Nata Inditama
+  last_updated_on: 2023-05-19 22:57:58.000000000 Z
